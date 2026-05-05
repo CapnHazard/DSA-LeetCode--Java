@@ -1,4 +1,4 @@
-//LeetCode Q1838. Frequency of MOst Frequent Element (atmost 'k' operations)
+//LeetCode Q1838. Frequency of Most Frequent Element (atmost 'k' operations)
 import java.util.*;
 class FreqMostFreq {
     public int maxFrequency(int[] nums, int k) {
