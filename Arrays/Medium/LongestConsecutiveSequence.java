@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class LongestConsectiveSequence {
+public class LongestConsecutiveSequence {
     //[100, 4, 200, 1, 3, 2]
     // 0  1  2  3  4  5  6  7  8  9 
     //[0, 3, 7, 2, 5, 8, 4, 6, 0, 1] 
@@ -34,7 +34,7 @@ public class LongestConsectiveSequence {
             System.out.print("-> ");
             nums[i] = sc.nextInt();
         }
-        LongestConsectiveSequence obj = new LongestConsectiveSequence();
+        LongestConsecutiveSequence obj = new LongestConsecutiveSequence();
         System.out.println(obj.findLongestSeq(nums));
         sc.close();
     }
