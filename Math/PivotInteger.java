@@ -5,12 +5,12 @@ public class PivotInteger {
         int x = 0; int sum1 = 0; int sum2 = 0;
         for(int i = 1; i <= n; i++) {
             sum1 = sum1 + i;
+            sum2 = 0;
             for(int j = i; j <= n; j++) {
-                sum2 = 0;
                 sum2 = sum2 + j;
-                if(sum1 == sum2) {
-                    x = i;
-                }
+            }
+            if(sum1 == sum2) {
+                x = i;
             }
         }
         return x;
