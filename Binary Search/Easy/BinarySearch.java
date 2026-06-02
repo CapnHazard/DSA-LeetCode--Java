@@ -15,4 +15,19 @@ public class BinarySearch {
         }
         return -1;
     }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter size of array: ");
+        int size = sc.nextInt();
+        int nums [] = new int [size];
+        for(int i = 0; i < size; i++) {
+            System.out.print("-> ");
+            nums[i] = sc.nextInt();
+        }
+        System.out.print("Enter target: ");
+        int target = sc.nextInt();
+        BinarySearch obj = new BinarySearch();
+        System.out.println(obj.search(nums, target));
+        sc.close();
+    }
 }
